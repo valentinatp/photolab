@@ -1,0 +1,133 @@
+*{
+	font-family: 'Arvo', serif;
+}
+
+.navbar-fixed nav {
+	position: fixed;
+	background-color: transparent;
+	box-shadow: none;
+	margin-left: 200px;
+	a{
+		color: $color_texto;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin: 0 20px;
+		&:hover{
+			color: $color_verde;
+			font-size: 20px;
+			transition: 0.5s;
+		}
+	}
+}
+
+.primera-seccion{
+	background-image: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	div{
+		div{
+			div{
+				h2{
+					color: $color_texto;
+					font-weight: 600px;
+					margin-top: 190px;
+					margin-left: 200px;
+				}
+				h5{
+					color: $color_texto;
+					font-weight: 600;
+					margin-left: 150px;
+					margin-bottom: 50px;
+				}
+				button{
+					background-color: $color_verde;
+					color: $color_texto;
+					border-radius: 10px;
+					border: none;
+					padding: 10px 20px;
+					margin-left: 160px;
+					text-transform: uppercase;
+					font-weight: 600;
+					&:hover{
+						background-color: $color_texto;
+						color: $color_verde;
+						transition: 0.5s;
+					}
+				}
+			}
+		}
+	}
+}
+
+#segunda-seccion{
+	background-color: $background_sec_dos;
+	height: 85vh;
+	width: 100%;
+	div{
+		div{
+			div{
+				h4{
+					color: $color_verde;
+					font-weight: 600;
+					text-transform: uppercase;
+					margin-top: 100px;
+				}
+				p{
+					color: $color_texto_dos;
+					font-weight: 600;
+				}
+			}
+			div{
+				img{
+					width: 100%;
+					height: 60%;
+					margin-top: 20px;
+					margin-bottom: 10px;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
+footer{
+	div{
+		div{
+			div{
+				div{
+					div{
+						ul{
+							li{
+								display: inline;
+								list-style: none;
+								a{
+									display: inline;
+									font-weight: 600;
+									padding-right: 15px;
+									text-transform: uppercase;
+									border-right: 2px solid #39d084;
+									color: $color_texto_dos;
+									&:hover{
+										color: $color_verde;
+										transition: 0.5s;
+									}
+								}
+							}
+						}
+					}
+				}
+				div{
+					div{
+						p{
+							color: $color_texto_dos;
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+	}
+}
